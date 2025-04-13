@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: ["https://job-portal3.onrender.com",'https://mern-backend1-5xau.onrender.com/api/company/register'],
+  origin: ["https://job-portal3.onrender.com",'https://job-portal3.onrender.com/admin/companies/create'],
   credentials: true,
 };
 
