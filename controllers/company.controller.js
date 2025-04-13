@@ -4,6 +4,7 @@ import cloudinary from '../utils/cloud.js';
 
 
 export const registerCompany = async (req, res) => {
+  console.log("-------register-----------")
   try {
     const { companyName } = req.body;
     if (!companyName) {
