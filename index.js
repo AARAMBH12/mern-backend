@@ -9,7 +9,7 @@ import jobRoute from "./routes/job.route.js";
 import applicationRoute from "./routes/application.route.js";
 import path from "path";
 
-dotenv.config({});
+dotenv.config({}); //
 const app = express();
 
 //middleware
@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: ["https://job-portal3.onrender.com"],
+  origin: ["https://job-portal3.onrender.com",'https://mern-backend1-5xau.onrender.com/api/company/register'],
   credentials: true,
 };
 
